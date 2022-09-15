@@ -1,0 +1,46 @@
+package com.mamta;
+
+public class Test {
+	
+	
+	public static A getA(int id){
+		
+		
+		return (new A(id));
+	
+		
+	}
+	
+	
+	
+	public static void main(String[] args) {
+		
+		
+		/*
+		 * A a = new A(); B b = new B();
+		 * 
+		 * //a=b; //A a = new B();
+		 * 
+		 * 
+		 * a = (A)b; // upcasting b = (B)a; // downcasting
+		 */		
+		/*
+		 * Double x = -Math.pow(2, 63); Double y = +Math.pow(2, 63)-1;
+		 * 
+		 * System.out.print("From "+ x.longValue());
+		 * 
+		 * 
+		 * System.out.println(" To +" + y.longValue());
+		 */
+		
+		
+		
+		A a = getA(11);
+		
+		System.out.println(a.id);
+		
+		System.out.println(a.getObject().getObject().getObject().getObject().getObject().getObject());
+		
+		
+	}
+}
